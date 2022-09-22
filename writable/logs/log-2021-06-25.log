@@ -1,0 +1,33 @@
+CRITICAL - 2021-06-25 06:16:05 --> include(htmlhead.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\wp3\UAS_Web3\app\Views\berita_view.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(htmlhea...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\wp3\UAS_Web3\app\Views\berita_view.php(5): include()
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\wp3\UAS_Web3\system\Common.php(1217): CodeIgniter\View\View->render('berita_view', Array, true)
+#5 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Home.php(28): view('berita_view')
+#6 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Home->berita()
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-25 06:16:39 --> include(footer.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\wp3\UAS_Web3\app\Views\berita_view.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(footer....', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\wp3\UAS_Web3\app\Views\berita_view.php(31): include()
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\wp3\UAS_Web3\system\Common.php(1217): CodeIgniter\View\View->render('berita_view', Array, true)
+#5 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Home.php(28): view('berita_view')
+#6 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Home->berita()
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-06-25 06:41:42 --> syntax error, unexpected '}', expecting end of file
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\Common.php(1217): CodeIgniter\View\View->render('ubah_profile', Array, true)
+#2 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Home.php(33): view('ubah_profile')
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Home->ubah()
+#4 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

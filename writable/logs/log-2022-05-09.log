@@ -1,0 +1,132 @@
+CRITICAL - 2022-05-09 09:28:40 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-05-09 10:38:52 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-05-09 10:40:51 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-05-09 10:40:52 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-05-09 10:41:27 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-05-09 10:41:28 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-05-09 10:41:29 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-05-09 10:41:29 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+ERROR - 2022-05-09 03:42:56 --> mysqli_sql_exception: Table 'tokohp.user' doesn't exist in C:\xampp\htdocs\wp3\UAS_Web3\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `usernam...')
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\system\Model.php(174): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\BaseModel.php(518): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\User.php(19): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\User->index()
+#8 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-09 03:42:56 --> Table 'tokohp.user' doesn't exist
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `usernam...')
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\system\Model.php(174): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\BaseModel.php(518): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\User.php(19): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\User->index()
+#8 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-09 03:43:40 --> mysqli_sql_exception: Table 'tokohp.user' doesn't exist in C:\xampp\htdocs\wp3\UAS_Web3\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `usernam...')
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\system\Model.php(174): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\BaseModel.php(518): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\User.php(19): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\User->index()
+#8 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-09 03:43:40 --> Table 'tokohp.user' doesn't exist
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `usernam...')
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `usernam...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `usernam...')
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `usernam...', Array, false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\system\Model.php(174): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\BaseModel.php(518): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\User.php(19): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\User->index()
+#8 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-09 03:44:09 --> mysqli_sql_exception: Table 'tokohp.user' doesn't exist in C:\xampp\htdocs\wp3\UAS_Web3\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Registrasi.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Registrasi->newAccount()
+#6 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 03:44:09 --> Table 'tokohp.user' doesn't exist
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Registrasi.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Registrasi->newAccount()
+#6 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-09 03:45:34 --> mysqli_sql_exception: Duplicate entry 'gwinata8' for key 'PRIMARY' in C:\xampp\htdocs\wp3\UAS_Web3\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Registrasi.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Registrasi->newAccount()
+#6 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-09 03:45:34 --> Duplicate entry 'gwinata8' for key 'PRIMARY'
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Registrasi.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Registrasi->newAccount()
+#6 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

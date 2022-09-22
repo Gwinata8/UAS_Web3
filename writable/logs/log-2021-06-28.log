@@ -1,0 +1,16 @@
+CRITICAL - 2021-06-28 10:45:58 --> syntax error, unexpected ''user'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('Config\\Filters')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('Config\\Filters')
+#3 [internal function]: spl_autoload_call('Config\\Filters')
+#4 C:\xampp\htdocs\wp3\UAS_Web3\system\Config\Factories.php(144): class_exists('Config\\Filters')
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\Config\Factories.php(109): CodeIgniter\Config\Factories::locateClass(Array, 'Filters')
+#6 C:\xampp\htdocs\wp3\UAS_Web3\system\Common.php(225): CodeIgniter\Config\Factories::__callStatic('config', Array)
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\Config\Services.php(283): config('Filters')
+#8 C:\xampp\htdocs\wp3\UAS_Web3\system\Config\BaseService.php(100): CodeIgniter\Config\Services::filters(NULL, false)
+#9 C:\xampp\htdocs\wp3\UAS_Web3\system\Config\Services.php(280): CodeIgniter\Config\BaseService::getSharedInstance('filters', NULL)
+#10 C:\xampp\htdocs\wp3\UAS_Web3\system\Config\BaseService.php(171): CodeIgniter\Config\Services::filters()
+#11 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(388): CodeIgniter\Config\BaseService::__callStatic('filters', Array)
+#12 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#14 {main}

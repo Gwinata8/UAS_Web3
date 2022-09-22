@@ -1,0 +1,48 @@
+CRITICAL - 2021-11-23 12:15:08 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\UAS_Web3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\UAS_Web3\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-11-23 12:15:54 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\UAS_Web3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\UAS_Web3\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-11-23 12:15:55 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\UAS_Web3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\UAS_Web3\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-11-23 12:15:55 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\UAS_Web3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\UAS_Web3\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-11-23 12:16:57 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\UAS_Web3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\UAS_Web3\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-11-23 12:16:57 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\UAS_Web3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\UAS_Web3\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-11-23 12:16:58 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\UAS_Web3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\UAS_Web3\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-11-23 12:16:58 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\UAS_Web3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\UAS_Web3\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-11-23 12:16:58 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\UAS_Web3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\UAS_Web3\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-11-23 12:16:58 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\UAS_Web3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\UAS_Web3\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-11-23 12:18:57 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-11-23 12:19:46 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}

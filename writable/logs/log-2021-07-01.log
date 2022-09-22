@@ -1,0 +1,288 @@
+CRITICAL - 2021-07-01 00:00:03 --> syntax error, unexpected ';', expecting identifier (T_STRING)
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('mahasiswa')
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('mahasiswa')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 00:00:36 --> Undefined variable: mahasiswa
+#0 C:\xampp\htdocs\wp3\UAS_Web3\app\Views\mahasiswa_view.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Common.php(1217): CodeIgniter\View\View->render('mahasiswa_view', Array, true)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Mahasiswa.php(14): view('mahasiswa_view', Array)
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Mahasiswa->index()
+#6 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-01 01:13:59 --> Undefined index: username
+#0 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Home.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Home->profile()
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 01:14:35 --> Undefined index: email
+#0 C:\xampp\htdocs\wp3\UAS_Web3\app\Views\ubah_profile.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Common.php(1217): CodeIgniter\View\View->render('ubah_profile', Array, true)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Home.php(88): view('ubah_profile')
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-01 01:20:45 --> Undefined index: email
+#0 C:\xampp\htdocs\wp3\UAS_Web3\app\Views\ubah_profile.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Common.php(1217): CodeIgniter\View\View->render('ubah_profile', Array, true)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Home.php(88): view('ubah_profile')
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-01 01:25:16 --> Undefined index: email
+#0 C:\xampp\htdocs\wp3\UAS_Web3\app\Views\ubah_profile.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Common.php(1217): CodeIgniter\View\View->render('ubah_profile', Array, true)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Home.php(85): view('ubah_profile')
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-01 01:28:19 --> Undefined index: username
+#0 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Home.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Home->profile()
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 01:29:35 --> Undefined index: username
+#0 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Home.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Home->profile()
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 01:30:51 --> Undefined index: username
+#0 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Home.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Home->profile()
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 01:31:06 --> Undefined index: email
+#0 C:\xampp\htdocs\wp3\UAS_Web3\app\Views\ubah_profile.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Common.php(1217): CodeIgniter\View\View->render('ubah_profile', Array, true)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Home.php(82): view('ubah_profile')
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Home->profile()
+#6 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-07-01 01:33:11 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::update() must be of the type array or null, string given, called in C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Home.php on line 73
+#0 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Home.php(73): CodeIgniter\Database\BaseBuilder->update('gg4', Array)
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Home->profile()
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 01:40:00 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\Common.php(1217): CodeIgniter\View\View->render('ubah_profile', Array, true)
+#2 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Home.php(78): view('ubah_profile')
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Home->profile()
+#4 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-01 01:50:29 --> syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('home/password')
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('home/password')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 02:05:20 --> syntax error, unexpected ';'
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('User/logout')
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('User/logout')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 02:06:16 --> Undefined offset: 0
+#0 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\User.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\User->index()
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 02:07:55 --> Undefined offset: 0
+#0 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\User.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\User->index()
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 02:08:02 --> Undefined offset: 0
+#0 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\User.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\User->index()
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 02:08:19 --> syntax error, unexpected 'else' (T_ELSE)
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('/')
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('/')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 05:17:22 --> syntax error, unexpected 'else' (T_ELSE), expecting ';' or ','
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\Common.php(1217): CodeIgniter\View\View->render('user_view', Array, true)
+#2 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Admin.php(23): view('user_view', Array)
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Admin->user_list()
+#4 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-01 05:55:32 --> Undefined property: App\Controllers\Admin::$form_validation
+#0 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Admin.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Admin->password('admin')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 06:00:34 --> Too few arguments to function App\Controllers\Admin::password(), 0 passed in C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Admin->password()
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-01 06:13:41 --> Too few arguments to function App\Controllers\Admin::password(), 0 passed in C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Admin->password()
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-01 06:14:14 --> Too few arguments to function App\Controllers\Admin::password(), 0 passed in C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Admin->password()
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-01 06:39:00 --> Too few arguments to function App\Controllers\Admin::password(), 0 passed in C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Admin->password()
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-07-01 06:43:50 --> Undefined index: status
+#0 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\User.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\User->index()
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 06:45:50 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('User/index')
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('User/index')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 06:48:18 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('User/index')
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('User/index')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 06:55:08 --> syntax error, unexpected 'bitches' (T_STRING), expecting ';' or ','
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('/')
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('/')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 07:06:18 --> syntax error, unexpected ')'
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('/')
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('/')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-07-01 07:28:19 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\Common.php(1217): CodeIgniter\View\View->render('login_view', Array, true)
+#2 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\User.php(44): view('login_view')
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\User->index()
+#4 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-01 07:28:24 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\Common.php(1217): CodeIgniter\View\View->render('login_view', Array, true)
+#2 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\User.php(44): view('login_view')
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\User->index()
+#4 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-01 07:28:26 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\Common.php(1217): CodeIgniter\View\View->render('login_view', Array, true)
+#2 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\User.php(44): view('login_view')
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\User->index()
+#4 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-01 07:28:57 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\Common.php(1217): CodeIgniter\View\View->render('login_view', Array, true)
+#2 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\User.php(44): view('login_view')
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\User->index()
+#4 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-01 07:32:14 --> syntax error, unexpected '}', expecting ';' or ','
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\Common.php(1217): CodeIgniter\View\View->render('login_view', Array, true)
+#2 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\User.php(44): view('login_view')
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\User->index()
+#4 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-01 07:32:15 --> syntax error, unexpected '}', expecting ';' or ','
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\Common.php(1217): CodeIgniter\View\View->render('login_view', Array, true)
+#2 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\User.php(44): view('login_view')
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\User->index()
+#4 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-07-01 07:32:36 --> Undefined variable: error
+#0 C:\xampp\htdocs\wp3\UAS_Web3\app\Views\login_view.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Common.php(1217): CodeIgniter\View\View->render('login_view', Array, true)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\User.php(44): view('login_view')
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\User->index()
+#6 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

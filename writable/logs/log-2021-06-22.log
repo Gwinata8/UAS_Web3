@@ -1,0 +1,124 @@
+CRITICAL - 2021-06-22 04:12:16 --> Undefined variable: data
+#0 C:\xampp\htdocs\wp3\UAS_Web3\app\Views\registrasi_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Common.php(1217): CodeIgniter\View\View->render('registrasi_view', Array, true)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Registrasi.php(44): view('registrasi_view', Array)
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Registrasi->newAccount()
+#6 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-22 04:12:35 --> Undefined variable: data
+#0 C:\xampp\htdocs\wp3\UAS_Web3\app\Views\registrasi_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Common.php(1217): CodeIgniter\View\View->render('registrasi_view', Array, true)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Registrasi.php(44): view('registrasi_view', Array)
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Registrasi->newAccount()
+#6 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-22 04:12:36 --> Undefined variable: data
+#0 C:\xampp\htdocs\wp3\UAS_Web3\app\Views\registrasi_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Common.php(1217): CodeIgniter\View\View->render('registrasi_view', Array, true)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Registrasi.php(44): view('registrasi_view', Array)
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Registrasi->newAccount()
+#6 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-22 04:16:53 --> Undefined variable: title
+#0 C:\xampp\htdocs\wp3\UAS_Web3\app\Views\registrasi_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Common.php(1217): CodeIgniter\View\View->render('registrasi_view', Array, true)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Home.php(16): view('registrasi_view')
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Home->regis()
+#6 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-22 04:17:38 --> Undefined variable: title
+#0 C:\xampp\htdocs\wp3\UAS_Web3\app\Views\registrasi_view.php(8): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Common.php(1217): CodeIgniter\View\View->render('registrasi_view', Array, true)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Home.php(16): view('registrasi_view')
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Home->regis()
+#6 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-22 04:44:48 --> mysqli_sql_exception: Duplicate entry 'gwinata8' for key 'PRIMARY' in C:\xampp\htdocs\wp3\UAS_Web3\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Registrasi.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Registrasi->newAccount()
+#6 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-22 04:44:48 --> Duplicate entry 'gwinata8' for key 'PRIMARY'
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Registrasi.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Registrasi->newAccount()
+#6 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-22 04:50:29 --> mysqli_sql_exception: Duplicate entry 'gg' for key 'PRIMARY' in C:\xampp\htdocs\wp3\UAS_Web3\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Registrasi.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Registrasi->newAccount()
+#6 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-22 04:50:29 --> Duplicate entry 'gg' for key 'PRIMARY'
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Registrasi.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Registrasi->newAccount()
+#6 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-06-22 04:50:52 --> mysqli_sql_exception: Duplicate entry 'gg' for key 'PRIMARY' in C:\xampp\htdocs\wp3\UAS_Web3\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Registrasi.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Registrasi->newAccount()
+#6 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-22 04:50:52 --> Duplicate entry 'gg' for key 'PRIMARY'
+#0 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\wp3\UAS_Web3\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\wp3\UAS_Web3\app\Controllers\Registrasi.php(36): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(936): App\Controllers\Registrasi->newAccount()
+#6 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+#7 C:\xampp\htdocs\wp3\UAS_Web3\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\wp3\UAS_Web3\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
